@@ -1,0 +1,13 @@
+[project]
+name = "my-gen-ai-core"
+version = "0.1.0"
+description = "A modular Python library for controllable generative AI research and development."
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
