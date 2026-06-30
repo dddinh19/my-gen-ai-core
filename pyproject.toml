@@ -6,6 +6,10 @@ requires-python = ">=3.10"
 dependencies = [
     "torch",
     "numpy",
+    "diffusers",
+    "transformers",
+    "accelerate",
+    "safetensors",
 ]
 
 [tool.setuptools.packages.find]
